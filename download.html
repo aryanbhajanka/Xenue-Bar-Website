@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Download Xenue Bar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="logo.png">
+
+<style>
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px;
+  background-image: url("bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family:  -apple-system, BlinkMacSystemFont, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(24, 36, 39, 0.95);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 10;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 8px;
+  text-decoration: none;
+  font-family: 'helvetica';
+  font-size: 12px;
+  font-weight: 10;
+  top: -13px;
+  position: relative;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.right{
+    float: right;
+}
+
+</style>
+</head>
+<body onload="download()">
+
+  <ul>
+    <li><a href="index.html#home"><img src="logo.png", height="20", width="20"style="top: +9px; margin-left:+4px;position: relative;"></a></li>
+    <li><a href="index.html#shortcuts"><p>Shortcuts</p></a></li>
+    <li><a href="index.html#search"><p>Quick Search</p></a></li>
+    <li><a href="index.html#music"><p>Music</p></a></li>
+    <li><a href="https://github.com/aryanbhajanka/Xenue-Bar" target="_blank"><p>Source</p></a></li>
+    <li><a href="https://www.linkedin.com/in/aryanbhajanka/" target="_blank"><p>About Me</p></a></li>
+    <div class="right">
+    <li style="background-color: #111;"><a href="index.html#more"><p style="align-content: right;">Download Now</p></a></li>
+  </div>
+  </ul>
+
+<div class="head", style="padding:20px; padding-top: 4%;">
+<br>
+<center><h1 style="font-size: xx-large;">Thank You For Downloading Xenue Bar</u></center><br>
+<div id = "setup" style="padding-left: 30%;">
+    <h2><u>How To Setup Xenue Bar:</u></h2>
+    <h3>1. After installing Xenue Bar, open File Explorer > Downloads > <br>right click the zip file and click "Extract Here" or "Extract All"<br><br>2. Open the new created folder > Xenue Bar > xenuebar.exe<br></h3>
+
+    <h2><u>How To Run Xenue Bar On Startup:</u></h2>
+    <h3>1. Right click xenuebar.exe and click pin to start<br><br>2. Open start (press windows button) and right click the <br>xenuebar shortcut. Click on "open file location"<br><br>3. Copy the xenue bar shortcut<br><br>4. Press "win + r" and type "shell:startup" in the box<br>Paste the copied shortcut in the opened folder<br>Xenue Bar will now run on startup on your system</h3>
+</div>
+</div>
+</body>
+
+<script>
+  function download(){
+    window.location.assign('https://www.googleapis.com/drive/v3/files/1GcD_9UdhFPp2lkzatz0-ALuSegpQkWaq?alt=media&key=AIzaSyActodh2LywqcJEYgZm0wLVfZ7MNNl1GsQ');
+  }
+</script>
+
+</html>
